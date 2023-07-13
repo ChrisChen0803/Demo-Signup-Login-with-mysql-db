@@ -1,0 +1,27 @@
+body {
+    background-image: url("/components/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.WelcomeSign{
+    position: absolute;
+    right:50%;
+    color:ghostwhite;
+}
+.TopicList{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.Topic{
+    color:red;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
